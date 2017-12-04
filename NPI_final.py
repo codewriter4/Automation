@@ -14,7 +14,7 @@ state=['CO']
 driver = webdriver.Chrome()
 
 def provider_lookup(name):
-	for i in range(202):
+	for i in range(len(name):
 		driver.get("https://npiregistry.cms.hhs.gov/api/demo")
 		time.sleep(2)
 		elem = driver.find_element_by_name("first_name")
